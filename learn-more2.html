@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            grid-template-rows: repeat(2, auto); /* 2 rows */
+            gap: 10px; /* 10px gap between grid items */
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #4169E1;
+            margin-bottom: 30px;
+            grid-column: span 2; /* Make the header span across both columns */
+        }
+
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #16A085;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .objective-description {
+            font-size: 1rem;
+            color: #7F8C8D;
+            margin-left: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .container {
+                grid-template-columns: 1fr 1fr; /* Stack the columns in 1 for smaller screens */
+            }
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                grid-template-columns: 1fr 1fr; /* Stack the columns in 2 for smaller screens */
+ 
+            }
+        }
+
+        @media (max-width: 400px) {
+            .container {
+                grid-template-columns: 1fr; /* Stack the columns in 2 for smaller screens */
+ 
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Our Core Values</h2>
+
+    <div class="container">
+
+        <div class="section">
+            <p class="section-title">Integrity</p>
+            <p class="objective-description">We operate with honesty and transparency in all our dealings.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Excellence</p>
+            <p class="objective-description">We uphold high standards in our production and services.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Teamwork</p>
+            <p class="objective-description">Our collective strength as seven stakeholders drives our growth.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Sustainability </p>
+            <p class="objective-description">We farm with the future in mind.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Innovation</p>
+            <p class="objective-description">We adopt the best technologies and practices for high yields and profitability.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

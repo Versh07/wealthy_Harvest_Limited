@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            grid-template-rows: repeat(2, auto); /* 2 rows */
+            gap: 10px; /* 10px gap between grid items */
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #4169E1;
+            margin-bottom: 1ch;
+        }
+
+        .p1 {
+            text-align: center;
+        }
+
+
+        .section {
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #16A085;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .objective-description {
+            font-size: 1rem;
+            color: #7F8C8D;
+            margin-left: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+            }
+
+            p, li {
+                font-size: 1rem;
+            }
+
+            .container {
+                grid-template-columns: 1fr 1fr; /* Stack the columns in 2 for smaller screens */
+            }
+        }
+
+        @media (max-width: 300px) {
+            .container {
+                grid-template-columns: 1fr; /* Stack the columns in 2 for smaller screens */
+ 
+            }
+        }
+
+    </style>
+</head>
+<body>
+<h2>Our Business Side</h2>
+<p class="p1">Wealthy Harvest Limited is a dynamic enterprise operating across diverse sectors to create value, drive innovation, and empower communities. Our business ventures are designed to ensure sustainability, quality, and societal impact.</p>
+    <div class="container">
+        
+        <div class="section">
+            <p class="section-title">Agriculture</p>
+            <p class="objective-description">At WHL, agriculture serves as a cornerstone of our operations, encompassing poultry farming, fish farming, animal rearing, crop farming, and fruit farming. Through these diverse initiatives, we aim to ensure food security, promote sustainable farming practices, and provide high-quality produce and products to the market. </p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Manufacturing and Food Processing</p>
+            <p class="objective-description">Our manufacturing and food processing operations focus on adding value to agricultural produce. By transforming raw materials into high-quality processed food products, we support local farmers and provide healthier, sustainable options to the market.</p>
+        </div>
+
+
+        <div class="section">
+            <p class="section-title">Technology and Innovation</p>
+            <p class="objective-description">WHL leverages technology to improve operations and customer experiences. Through digital platforms and innovative solutions, we enhance efficiency and remain competitive in a rapidly evolving market.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Real Estate and Property Development</p>
+            <p class="objective-description">WHL develops and manages residential and commercial properties, offering sustainable and affordable housing solutions to enhance community living and create long-term value.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Transportation and Logistics</p>
+            <p class="objective-description">WHL also operates in the transportation and logistics sector, providing efficient and reliable delivery services. Our focus is on ensuring timely and safe transportation of goods, meeting the growing demand for logistics solutions in both local and regional markets.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Values</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            grid-template-rows: repeat(2, auto); /* 2 rows */
+            gap: 20px; /* 20px gap between grid items */
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #4169E1;
+            margin-bottom: 10px;
+            grid-column: span 3; /* Make the header span across all 3 columns */
+        }
+
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #16A085;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .objective-description {
+            font-size: 1rem;
+            color: #7F8C8D;
+            margin-left: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .container {
+                grid-template-columns: 1fr 1fr 1fr; /* Stack the columns in 1 for smaller screens */
+            }
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                grid-template-columns: 1fr 1fr; /* Stack the columns in 2 for smaller screens */
+ 
+            }
+        }
+
+        @media (max-width: 400px) {
+            .container {
+                grid-template-columns: 1fr; /* Stack the columns in 2 for smaller screens */
+ 
+            }
+        }
+
+        a {
+      text-decoration: none; /* Remove underline from the link */
+      color: #007BFF; /* Initial link color */
+    }
+
+    /* Hover effect: Change color and underline */
+    a:hover h3 {
+      color: #28a745; /* Change color when hovered */
+      text-decoration: underline; /* Add underline when hovered */
+      cursor: pointer; /* Change cursor to pointer when hovered */
+    }
+
+
+    @keyframes colorCycle {
+      0% {
+        background-color: #128C7E; /* WhatsApp Green */
+      }
+      25% {
+        background-color: #b025d3; /* Lighter pink */
+      }
+      50% {
+        background-color: rgb(181, 181, 40); /* light yellow */
+      }
+      75% {
+        background-color: #4169E1; /* navy blue */
+      }
+      100% {
+        background-color: #ED9121; /* orange */
+      }
+    }
+
+    .contact-button {
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      animation: colorCycle 8s infinite; /* 6 seconds cycle, 3 steps */
+    }
+    </style>
+</head>
+<body>
+    <h2>Our Partnership</h2>
+    <p>At Wealthy Harvest Limited, we believe that collaboration is key to driving meaningful change. By partnering with like-minded organizations and individuals, we amplify our impact, leverage resources, and create innovative solutions to address the challenges faced by vulnerable communities, ensuring lasting and transformative results.</p>
+
+    <h3>Why Partnership Matters</h3>
+    <p>Tackling global issues like hunger, poverty and inequality requires collective action, and through partnerships, we can combine strengths, resources, and expertise to create sustainable solutions, respond effectively to crises, and expand our reach to diverse communities.</p>
+
+    <h3>Types of Partnerships We Pursue</h3>
+
+    <div class="container">
+        
+        <div class="section">
+            <p class="section-title">Corporate Partnerships</p>
+            <p class="objective-description">We believe businesses play a key role in building a better world, and by partnering with corporations, we gain resources and expertise to drive social impact while offering opportunities for employee volunteerism, brand enhancement, and community connection.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Government and Institutional Partnerships</p>
+            <p class="objective-description">Collaborating with government agencies and public institutions enables us to access resources, align with national development goals, and influence policies that benefit all populations, scaling our impact in areas like health, education, and community empowerment.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Nonprofit and NGO Collaborations</p>
+            <p class="objective-description">Partnering with other nonprofits and NGOs allows us to address needs holistically, share knowledge, avoid duplication, and develop coordinated solutions for marginalized communities.</p>
+        </div>
+
+        <div class="section">
+            <p class="section-title">Community Partnerships</p>
+            <p class="objective-description">We prioritize local communities by collaborating with leaders and grassroots organizations to ensure our initiatives are culturally relevant, sustainable, and impactful, empowering communities to shape the programs that affect their lives.</p>
+        </div>
+
+
+        <div class="section">
+            <p class="section-title" style="color: #fd7e14;">Click to learn more about partnership:</p>
+            <a href="collaboration.html" ><h3>How We Collaborate</h3></a>
+            <a href="benefits.html" ><h3>Benefits of Partnering with us</h3></a>    
+        </div>
+
+    </div>
+
+    <h3 style="text-align: center;">Join Us in Making a Difference</h3>
+    <p>We invite organizations, corporations, governments, and individuals to partner with us in our mission to solve food insecurity, alleviate suffering, and create sustainable change. Together, we can transform communities, uplift individuals, and build a brighter future for all.</p>
+    <a href="https://wa.me/2348169025455" target="_blank">
+        <a href="https://wa.me/2348169025455" target="_blank">
+            <button class="contact-button">
+              Contact Us
+            </button>
+          </a>  
+    <hr>          
+</body>
+</html>
